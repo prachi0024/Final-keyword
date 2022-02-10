@@ -1,0 +1,15 @@
+
+public class Main {
+	final int age = 18;
+	public void show()
+	{
+		System.out.println("Age is" +age);
+	}
+
+	public static void main(String[] args) {
+		 Main obj = new Main();
+		 obj.show();
+
+	}
+
+}
