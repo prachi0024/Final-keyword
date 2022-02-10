@@ -1,0 +1,20 @@
+class one
+{
+	void msg()
+	{
+	    System.out.println("Final method");
+	}
+}
+public class FinalMethod extends one{
+       void msg()
+       {
+    	   System.out.println("new method");
+       }
+       public class FinalMethod extends one{
+	public static void main(String[] args) {
+	     FinalMethod obj = new FinalMethod();
+	     obj.msg();
+
+	}
+       }
+}
