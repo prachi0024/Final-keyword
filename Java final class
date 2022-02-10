@@ -1,0 +1,13 @@
+class anmol
+{
+	public void msg()
+	{
+		System.out.println("I am in a final class");
+}
+public class NewClass extends anmol{
+
+	public static void main(String[] args) {
+     
+	}
+
+}
